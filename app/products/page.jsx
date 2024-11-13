@@ -16,15 +16,37 @@ export default function ProductsPage() {
             Highway Safety Products
           </h2>
           <ul className="list-disc list-inside text-gray-700 max-w-2xl mx-auto">
-            <li>Pavement Markers</li>
-            <li>Glass Beads</li>
-            <li>Traffic Paint</li>
-            <li>Plural Components</li>
-            <li>Adhesives</li>
-            <li>Marking Products</li>
-            <li>Delineators</li>
-            <li>Plastic Products</li>
-            <li>Equipment</li>
+            <li>Highway Safety Markings</li>
+            <ul className="list-disc list-inside text-gray-700 max-w-2xl mx-auto ml-10">
+              <li>Granular Thermoplastic Marking Products</li>
+              <li>Hot Preformed Materials</li>
+              <li>Standard Intermix Beads</li>
+              <li>Specialized Glass Drop-On Blends</li>
+              <li>Traffic Paint</li>
+              <li>Plural Components</li>
+              <li>Cold Plastic</li>
+              <li>Markers</li>
+              <li>Temporary Marking Tape</li>
+            </ul>
+          </ul>
+          <ul className="list-disc list-inside text-gray-700 max-w-2xl mx-auto">
+            <li>Pavement Repair Systems</li>
+            <ul className="list-disc list-inside text-gray-700 max-w-2xl mx-auto ml-10">
+              <li>Hot Applied Crack Sealers</li>
+              <li>Cold Applied Crack Sealers</li>
+              <li>Pothole Patching Materials</li>
+              <li>Seal Coat</li>
+            </ul>
+          </ul>
+          <ul className="list-disc list-inside text-gray-700 max-w-2xl mx-auto">
+            <li>Highway Markings Safety Equipment</li>
+            <ul className="list-disc list-inside text-gray-700 max-w-2xl mx-auto ml-10">
+              <li>Self-Propelled Thermoplastic Applicators</li>
+              <li>Thermoplastic Handliners</li>
+              <li>Traffic Paint Equipment</li>
+              <li>MMA Equipment</li>
+              <li>Raised Pavement Markers Bitumen Adhesive</li>
+            </ul>
           </ul>
         </section>
       </section>
