@@ -125,12 +125,9 @@ export default function ContactPage() {
             Our Contact Information
           </h2>
           <p className="text-lg text-gray-600 mb-4">
-            Email: info@salcoglobalsolutions.com
+            Email: jorge@salcoglobalsolutions.com
           </p>
-          <p className="text-lg text-gray-600 mb-4">Phone: +1 (555) 123-4567</p>
-          <p className="text-lg text-gray-600">
-            Address: 123 Business Park Drive, Suite 100, Cityville, CA 12345
-          </p>
+          <p className="text-lg text-gray-600 mb-4">Phone: +1 (972) 832-8638</p>
         </section>
       </section>
     </main>
