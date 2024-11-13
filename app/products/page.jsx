@@ -11,13 +11,19 @@ export default function ProductsPage() {
         </p>
 
         {/* Highway Safety Products Section */}
-        <section className="mb-16">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-6 text-center">
-            Highway Safety Products
-          </h2>
-          <ul className="list-disc list-inside text-gray-700 max-w-2xl mx-auto">
-            <li>Highway Safety Markings</li>
-            <ul className="list-disc list-inside text-gray-700 max-w-2xl mx-auto ml-10">
+        <section className="space-y-16">
+          <div className="text-center">
+            <h2 className="text-2xl font-semibold text-gray-800 mb-6">
+              Highway Safety Products
+            </h2>
+          </div>
+
+          {/* Highway Safety Markings */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-semibold text-gray-800 mb-2">
+              Highway Safety Markings
+            </h3>
+            <ul className="list-disc list-inside text-gray-700 mx-auto max-w-3xl space-y-2">
               <li>Granular Thermoplastic Marking Products</li>
               <li>Hot Preformed Materials</li>
               <li>Standard Intermix Beads</li>
@@ -28,26 +34,34 @@ export default function ProductsPage() {
               <li>Markers</li>
               <li>Temporary Marking Tape</li>
             </ul>
-          </ul>
-          <ul className="list-disc list-inside text-gray-700 max-w-2xl mx-auto">
-            <li>Pavement Repair Systems</li>
-            <ul className="list-disc list-inside text-gray-700 max-w-2xl mx-auto ml-10">
+          </div>
+
+          {/* Pavement Repair Systems */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-semibold text-gray-800 mb-2">
+              Pavement Repair Systems
+            </h3>
+            <ul className="list-disc list-inside text-gray-700 mx-auto max-w-3xl space-y-2">
               <li>Hot Applied Crack Sealers</li>
               <li>Cold Applied Crack Sealers</li>
               <li>Pothole Patching Materials</li>
               <li>Seal Coat</li>
             </ul>
-          </ul>
-          <ul className="list-disc list-inside text-gray-700 max-w-2xl mx-auto">
-            <li>Highway Markings Safety Equipment</li>
-            <ul className="list-disc list-inside text-gray-700 max-w-2xl mx-auto ml-10">
+          </div>
+
+          {/* Highway Markings Safety Equipment */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-semibold text-gray-800 mb-2">
+              Highway Markings Safety Equipment
+            </h3>
+            <ul className="list-disc list-inside text-gray-700 mx-auto max-w-3xl space-y-2">
               <li>Self-Propelled Thermoplastic Applicators</li>
               <li>Thermoplastic Handliners</li>
               <li>Traffic Paint Equipment</li>
               <li>MMA Equipment</li>
               <li>Raised Pavement Markers Bitumen Adhesive</li>
             </ul>
-          </ul>
+          </div>
         </section>
       </section>
     </main>
